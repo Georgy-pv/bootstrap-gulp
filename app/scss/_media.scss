@@ -1,0 +1,118 @@
+@media (max-width: 1200px){
+    .services{
+        .services__item{
+            padding: 20px;
+            max-width: 330px;
+        }
+    }
+    .pricing-plane{
+        &__item-header{
+            padding: 50px 40px 70px 40px;
+        }
+        &__item-body{
+            padding: 0px 46px;
+            padding-bottom: 65px;
+        }
+        &__item{
+            max-width: 300px;
+        }
+    }
+    
+}
+
+@media (max-width: 993px){
+    .header{
+        padding: 25px 0px;
+        .navbar{
+            .nav-link{
+                margin: 0;
+            }
+        }
+    } 
+    .main__screen{
+        padding-top: 10px;
+        .btn{
+            width: 235px;
+            margin-top: 20px;
+        }
+    }
+    .about__item{
+        padding: 0 5px 20px 5px; 
+    }
+    .pricing-plane{
+        &__item{
+            max-width: 500px;
+        }
+    }
+    .our-team{
+        .slider__item{
+            max-width: 340px;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .main__screen{
+        &-tittle{
+            font-size: 40px;
+        }
+    }
+    .works{
+        padding: 120px 0px;
+        .works__btn{
+            padding: 7px;
+            margin: 0px;
+        }
+    }
+    .pricing-plane{
+        &__item{
+            max-width: 360px;
+        }
+        &__item-body{
+            .pricing-plane__item-btn{
+                width: 100%;
+            }
+        }
+    }
+    .our-team{
+        .slider__item{
+            max-width: 360px;
+        }
+        .slider__item.slick-slide.slick-current.slick-active{
+            margin-left: -5px;
+        }
+        .slick-track{
+             
+        }
+    }
+    
+}
+
+@media (max-width: 576px){
+    .main__screen{
+        &-tittle{
+            font-size: 25px;
+        }
+        &-subtittle{
+            font-size: 20px;
+            line-height: 22px;
+        }
+    }
+    .works{
+        padding: 120px 0px;
+        .works__btn{
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .works__img-item{
+            text-align: center;
+        }
+    }
+    .our-team{
+        padding: 75px 0px;
+        .slick-dots{
+            margin-top: 70px;
+        }
+    }
+}

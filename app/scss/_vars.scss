@@ -1,0 +1,25 @@
+$main_color: #00897b;
+
+@mixin btn_default {
+    padding: 25px 45px;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+@mixin section__tittle {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+@mixin section__subtittle {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    text-align: center;
+}
